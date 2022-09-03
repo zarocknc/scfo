@@ -8,6 +8,7 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
+  Box,
 } from '@chakra-ui/react'
 
 import { Heading } from '@chakra-ui/react'
@@ -26,20 +27,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-<Heading>
+      <Cabezal/>
+      <Box>
+        <Heading>
           To do Desarrollo de software senati
         </Heading>
         <Text>
           TODO, trabajos y documentos del area de desarrollo de software de senati
         </Text>
-        <Cabezal />
 
-<Container>
-  There are many benefits to a joint design and development system. Not only
-  does it bring benefits to the design team, but it also brings benefits to
-  engineering teams. It makes sure that our experiences have a consistent look
-  and feel, not just in our design specs, but in production
-</Container>
+        <Container>
+          There are many benefits to a joint design and development system. Not only
+          does it bring benefits to the design team, but it also brings benefits to
+          engineering teams. It makes sure that our experiences have a consistent look
+          and feel, not just in our design specs, but in production
+        </Container>
+      </Box>
 
 
 
