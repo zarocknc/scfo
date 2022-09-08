@@ -28,8 +28,8 @@ export default function Home() {
       </Head>
 
       <Cabezal/>
-      <Box>
-        <Heading>
+      <Box align="center">
+        <Heading fontSize={{ base: '3xl', sm: '4xl', md: '6xl'}}>
           To do Desarrollo de software senati
         </Heading>
         <Text>
