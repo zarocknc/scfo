@@ -23,8 +23,9 @@ export default function Cabezal() {
                     <Link href="/">
                         <Button>HOME</Button>
                     </Link>
-                    <Button>Trabajos</Button>
-                    <Button>Documentos</Button>
+                    <Link href="/trabajos">
+                        <Button>Trabajos</Button>
+                    </Link>
                     <Link href="/fundamentos">
                         <Button>Examen Fundamentos de programacion</Button>
                     </Link>
